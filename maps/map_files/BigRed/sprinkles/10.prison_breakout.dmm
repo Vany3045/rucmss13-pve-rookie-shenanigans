@@ -407,7 +407,7 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/obj/item/ammo_casing/shell,
+/obj/effect/decal/ammo_casing/redshell,
 /turf/open/floor/dark,
 /area/bigredv2/outside/marshal_office)
 "bx" = (
@@ -465,7 +465,7 @@
 	dir = 4;
 	icon_state = "gib6"
 	},
-/obj/item/ammo_casing/shell,
+/obj/effect/decal/ammo_casing/redshell,
 /turf/open/floor/dark,
 /area/bigredv2/outside/marshal_office)
 "bI" = (
@@ -526,7 +526,7 @@
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 8
 	},
-/obj/item/ammo_casing/shell,
+/obj/effect/decal/ammo_casing/redshell,
 /turf/open/floor/dark,
 /area/bigredv2/outside/marshal_office)
 "bV" = (
@@ -627,14 +627,14 @@
 "cl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
-/obj/item/ammo_casing/shell,
+/obj/effect/decal/ammo_casing/redshell,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /turf/open/floor/redcorner/west,
 /area/bigredv2/outside/marshal_office)
 "cm" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_casing/shell,
+/obj/effect/decal/ammo_casing/redshell,
 /turf/open/floor/redcorner,
 /area/bigredv2/outside/marshal_office)
 "cn" = (
@@ -652,7 +652,7 @@
 /turf/open/floor/plating,
 /area/bigredv2/outside/marshal_office)
 "cr" = (
-/obj/item/ammo_casing/shell,
+/obj/effect/decal/ammo_casing/redshell,
 /turf/open/floor/redcorner/west,
 /area/bigredv2/outside/marshal_office)
 "cs" = (

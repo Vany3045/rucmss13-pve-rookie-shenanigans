@@ -7311,7 +7311,7 @@
 /turf/open/floor/delivery,
 /area/bigredv2/outside/medical)
 "aBf" = (
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /turf/open/floor/whitegreencorner,
 /area/bigredv2/outside/medical)
 "aBg" = (
@@ -8513,7 +8513,7 @@
 /area/bigredv2/outside/medical)
 "aFJ" = (
 /obj/structure/surface/table/reinforced,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/white,
 /area/bigredv2/outside/medical)
@@ -12448,7 +12448,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/yellowfull,
 /area/bigredv2/outside/general_store)
@@ -22116,7 +22116,7 @@
 /area/bigredv2/caves/mining)
 "gTD" = (
 /obj/structure/surface/table,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/structure/pipes/vents/pump,
 /obj/item/reagent_container/spray/cleaner,
 /obj/structure/phone_base/colony_net{

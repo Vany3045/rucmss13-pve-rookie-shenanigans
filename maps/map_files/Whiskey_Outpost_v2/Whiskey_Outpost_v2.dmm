@@ -94,7 +94,7 @@
 /area/whiskey_outpost/inside/living)
 "ap" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
@@ -901,12 +901,12 @@
 "dT" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/device/reagent_scanner,
-/obj/item/device/healthanalyzer,
-/obj/item/device/healthanalyzer,
-/obj/item/device/healthanalyzer,
-/obj/item/device/healthanalyzer,
-/obj/item/device/healthanalyzer,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
+/obj/item/device/healthanalyzer/soul,
+/obj/item/device/healthanalyzer/soul,
+/obj/item/device/healthanalyzer/soul,
+/obj/item/device/healthanalyzer/soul,
+/obj/item/device/healthanalyzer/soul,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /turf/open/floor/whitegreen/north,
 /area/whiskey_outpost/inside/hospital)
@@ -1161,7 +1161,7 @@
 /area/whiskey_outpost/outside/lane/four_north)
 "fh" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
@@ -3723,7 +3723,7 @@
 /area/whiskey_outpost/inside/engineering)
 "qI" = (
 /obj/structure/barricade/metal/wired,
-/obj/item/ammo_casing{
+/obj/effect/decal/ammo_casing{
 	icon_state = "cartridge_2_1";
 	layer = 2
 	},
@@ -5168,7 +5168,7 @@
 /turf/open/floor/prison,
 /area/whiskey_outpost/inside/supply)
 "xl" = (
-/obj/item/ammo_casing{
+/obj/effect/decal/ammo_casing{
 	icon_state = "cartridge_10"
 	},
 /obj/effect/decal/cleanable/blood/oil,
@@ -7890,7 +7890,7 @@
 /obj/structure/closet/secure_closet/surgical{
 	pixel_x = -30
 	},
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/item/weapon/gun/pill{
 	pixel_y = 6
 	},
@@ -7945,7 +7945,7 @@
 	pixel_y = 9
 	},
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/structure/closet/secure_closet/surgical{
 	pixel_x = 30
 	},
@@ -8618,7 +8618,7 @@
 /turf/open/gm/river,
 /area/whiskey_outpost/outside/river)
 "Ps" = (
-/obj/item/ammo_casing{
+/obj/effect/decal/ammo_casing{
 	dir = 5;
 	icon_state = "cartridge_10"
 	},
