@@ -128,16 +128,16 @@
 	accuracy_var_low = PROJECTILE_VARIANCE_TIER_8
 	accuracy_var_high = PROJECTILE_VARIANCE_TIER_8
 	max_range = 22
-	damage = 30
-	penetration = ARMOR_PENETRATION_TIER_1
+	damage = 50
+	penetration = ARMOR_PENETRATION_TIER_3
 	damage_armor_punch = 0
 	pen_armor_punch = 0
 	shell_speed = 2*AMMO_SPEED_TIER_6
 	accuracy = HIT_ACCURACY_TIER_5
 
 /datum/ammo/bullet/turret/upp
-	damage = 45
-	penetration = ARMOR_PENETRATION_TIER_2
+	damage = 75
+	penetration = ARMOR_PENETRATION_TIER_4
 	accuracy_var_low = PROJECTILE_VARIANCE_TIER_2
 	accuracy_var_high = PROJECTILE_VARIANCE_TIER_2
 
