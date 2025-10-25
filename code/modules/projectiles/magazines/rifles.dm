@@ -100,7 +100,7 @@
 	ammo_band_color = AMMO_BAND_COLOR_RUBBER
 
 /obj/item/ammo_magazine/rifle/m41aMK1/ap
-	name = "\improper M41A AP magazine (10x24mm)"
+	name = "\improper M41A LEAP magazine (10x24mm)"
 	desc = "A long rectangular box magazine for the M41A. Holds 99 caseless 10x24mm M305 steelcore Light Explosive Armor Piercing rounds."
 	default_ammo = /datum/ammo/bullet/rifle/ap
 	ammo_band_color = AMMO_BAND_COLOR_AP
