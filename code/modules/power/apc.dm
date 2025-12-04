@@ -1,7 +1,7 @@
 #define APC_WIRE_MAIN_POWER 1
 #define APC_WIRE_IDSCAN 2
 
-GLOBAL_LIST_INIT(apc_wire_descriptions, alist(
+GLOBAL_LIST_INIT(apc_wire_descriptions, list(
 		APC_WIRE_MAIN_POWER   = "Main power",
 		APC_WIRE_IDSCAN   = "ID scanner"
 	))
@@ -958,7 +958,7 @@ GLOBAL_LIST_INIT(apc_wire_descriptions, alist(
 		area.update_power_channels(FALSE, FALSE, FALSE)
 
 /obj/structure/machinery/power/apc/proc/get_wire_descriptions()
-	return alist(
+	return list(
 		APC_WIRE_MAIN_POWER   = "Main power",
 		APC_WIRE_IDSCAN    = "ID scanner"
 	)
