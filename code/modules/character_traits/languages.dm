@@ -66,9 +66,9 @@
 	cost = 1
 
 /datum/character_trait/language/ruspatois
-	language_name = LANGUAGE_RUSPATOIS
+	language_name = LANGUAGE_Ukraine
 	applyable = TRUE
-	cost = 1000
+	cost = 1
 
 /datum/character_trait/language/english
 	language_name = LANGUAGE_ENGLISH
