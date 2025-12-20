@@ -330,7 +330,7 @@
 /obj/item/clothing/suit/marine/smartgunner/upp/Initialize(mapload)
 	. = ..()
 	var/obj/item/clothing/accessory/upppads/legs/greaves = new()
-	src.attach_accessory(null, greaves, TRUE)
+	src.attach_accessory(null, greaves, FALSE)
 
 /obj/item/clothing/suit/marine/faction/UPP/light
 	name = "\improper 6B72-03 pattern UPP armor"

@@ -176,7 +176,7 @@
 
 /datum/ammo/bullet/rifle/heavy/rmcdmr
 	name = "8.88x51 squash-head bullet"
-	damage = 60
+	damage = 150
 	penetration = ARMOR_PENETRATION_TIER_6
 	accuracy = HIT_ACCURACY_TIER_3
 	shell_speed = AMMO_SPEED_TIER_7
@@ -618,7 +618,7 @@
 /datum/ammo/bullet/rifle/heap/twe
 	name = "high-explosive armor-piercing 8.5x33 bullet"
 	damage = 75
-	penetration = ARMOR_PENETRATION_TIER_9
+	penetration = ARMOR_PENETRATION_TIER_7
 	shrapnel_chance = SHRAPNEL_CHANCE_TIER_4
 
 //9.7x16 AG80
