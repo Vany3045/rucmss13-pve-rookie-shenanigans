@@ -23,7 +23,7 @@
 /datum/character_trait/language/russian
 	language_name = LANGUAGE_RUSSIAN
 	applyable = TRUE
-	cost = 1
+	cost = 0
 
 /datum/character_trait/language/japanese
 	language_name = LANGUAGE_JAPANESE
@@ -68,7 +68,7 @@
 /datum/character_trait/language/ruspatois
 	language_name = LANGUAGE_RUSPATOIS
 	applyable = TRUE
-	cost = 1
+	cost = 1000
 
 /datum/character_trait/language/english
 	language_name = LANGUAGE_ENGLISH

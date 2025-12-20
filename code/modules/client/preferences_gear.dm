@@ -1152,6 +1152,12 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	cost = 4
 	allowed_origins = USCM_ORIGINS
 
+/datum/gear/weapon/m4a4
+	display_name = "M4A4 Service Pistol"
+	path = /obj/item/weapon/gun/pistol/m4a3/m4a4
+	allowed_origins = USCM_ORIGINS
+	cost = 5
+
 /datum/gear/weapon/m1911
 	display_name = "M1911 Pistol"
 	path = /obj/item/storage/box/loadout/M1911_loadout
@@ -1685,7 +1691,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 /datum/gear/misc/survival_tool
 	display_name = "Colonial Companion multi-tool"
 	path = /obj/item/weapon/swiss_army_knife
-	cost = 4 // Two tools & a knife in one package
+	cost = 3 // Two tools & a knife in one package
 
 /datum/gear/misc/can_opener
 	display_name = "Can opener"
