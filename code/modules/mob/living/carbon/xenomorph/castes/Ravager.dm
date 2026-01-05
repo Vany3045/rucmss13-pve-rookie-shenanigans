@@ -2,8 +2,8 @@
 	caste_type = XENO_CASTE_RAVAGER
 	tier = 3
 
-	melee_damage_lower = XENO_DAMAGE_TIER_6
-	melee_damage_upper = XENO_DAMAGE_TIER_6
+	melee_damage_lower = XENO_DAMAGE_TIER_9
+	melee_damage_upper = XENO_DAMAGE_TIER_9
 	melee_vehicle_damage = XENO_DAMAGE_TIER_7 //Queen and Ravs have extra multiplier when dealing damage in multitile_interaction.dm
 	max_health = XENO_HEALTH_TIER_9
 	plasma_gain = XENO_PLASMA_GAIN_TIER_9
@@ -66,6 +66,7 @@
 	icon_xenonid = 'icons/mob/xenonids/ravager.dmi'
 
 	weed_food_icon = 'icons/mob/xenos/weeds_64x64.dmi'
+	mycelium_food_icon = 'icons/mob/pathogen/pathogen_weeds_64x64.dmi'
 	weed_food_states = list("Ravager_1","Ravager_2","Ravager_3")
 	weed_food_states_flipped = list("Ravager_1","Ravager_2","Ravager_3")
 
