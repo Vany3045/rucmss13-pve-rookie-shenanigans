@@ -2,8 +2,8 @@
 	caste_type = XENO_CASTE_PREDALIEN
 	display_name = "Abomination"
 
-	melee_damage_lower = XENO_DAMAGE_TIER_4
-	melee_damage_upper = XENO_DAMAGE_TIER_5
+	melee_damage_lower = XENO_DAMAGE_TIER_9
+	melee_damage_upper = XENO_DAMAGE_TIER_9
 	melee_vehicle_damage = XENO_DAMAGE_TIER_5
 	max_health = XENO_HEALTH_TIER_9
 	plasma_max = XENO_NO_PLASMA
@@ -22,7 +22,7 @@
 
 	is_intelligent = TRUE
 	tier = 1
-	attack_delay = -2
+	attack_delay = -4
 	can_be_queen_healed = FALSE
 
 	behavior_delegate_type = /datum/behavior_delegate/predalien_base
@@ -68,6 +68,7 @@
 	)
 
 	weed_food_icon = 'icons/mob/xenos/weeds_64x64.dmi'
+	mycelium_food_icon = 'icons/mob/pathogen/pathogen_weeds_64x64.dmi'
 	weed_food_states = list("Predalien_1","Predalien_2","Predalien_3")
 	weed_food_states_flipped = list("Predalien_1","Predalien_2","Predalien_3")
 	var/smashing = FALSE

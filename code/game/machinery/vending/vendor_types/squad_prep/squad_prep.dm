@@ -749,6 +749,7 @@
 		list("SIDEARMS", -1, null, null),
 		list("VP70 Combat Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/vp70/unloaded, VENDOR_ITEM_REGULAR),
 		list("M4A3 Service Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/m4a3/unloaded, VENDOR_ITEM_REGULAR),
+		list("M44 Combat Revolver", round(scale *1), /obj/item/weapon/gun/revolver/m44, VENDOR_ITEM_REGULAR),
 		list("M82F Flare Gun", round(scale * 1), /obj/item/weapon/gun/flare, VENDOR_ITEM_REGULAR),
 
 		list("MISCELLANEOUS", -1, null, null),
@@ -812,6 +813,7 @@
 		list("SIDEARMS", -1, null, null),
 		list("NP92 Standard Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/np92/unloaded, VENDOR_ITEM_REGULAR),
 		list("Type 73 Service Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/t73/unloaded, VENDOR_ITEM_REGULAR),
+		list("ZHNK-72 Revolver", round(scale * 1), /obj/item/weapon/gun/revolver/upp, VENDOR_ITEM_REGULAR),
 
 		list("MISCELLANEOUS", -1, null, null),
 		list("Extinguisher", round(scale * 5), /obj/item/tool/extinguisher, VENDOR_ITEM_REGULAR),
@@ -881,6 +883,7 @@
 		list("VP70 Magazine (9mm)", round(scale * 20), /obj/item/ammo_magazine/pistol/vp70, VENDOR_ITEM_REGULAR),
 		list("M44 Speedloader (.44)", round(scale * 20), /obj/item/ammo_magazine/revolver, VENDOR_ITEM_REGULAR),
 		list("M4A3 Magazine (9mm)", round(scale * 20), /obj/item/ammo_magazine/pistol, VENDOR_ITEM_REGULAR),
+		list("M44 Combat Revolver", round(scale *1), /obj/item/weapon/gun/revolver/m44, VENDOR_ITEM_REGULAR),
 		list("VP78 magazine (9mm)", round(scale * 20), /obj/item/ammo_magazine/pistol/vp78, VENDOR_ITEM_REGULAR),
 
 		list("MISCELLANEOUS", -1, null, null),

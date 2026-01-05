@@ -2,10 +2,10 @@
 	caste_type = XENO_CASTE_PRAETORIAN
 	tier = 3
 
-	melee_damage_lower = XENO_DAMAGE_TIER_5
-	melee_damage_upper = XENO_DAMAGE_TIER_5
+	melee_damage_lower = XENO_DAMAGE_TIER_9
+	melee_damage_upper = XENO_DAMAGE_TIER_9
 	melee_vehicle_damage = XENO_DAMAGE_TIER_7
-	max_health = XENO_HEALTH_TIER_9
+	max_health = XENO_HEALTH_TIER_14
 	plasma_gain = XENO_PLASMA_GAIN_TIER_5
 	plasma_max = XENO_PLASMA_TIER_8
 	xeno_explosion_resistance = XENO_EXPLOSIVE_ARMOR_TIER_4
@@ -71,6 +71,7 @@
 	icon_xenonid = 'icons/mob/xenonids/praetorian.dmi'
 
 	weed_food_icon = 'icons/mob/xenos/weeds_64x64.dmi'
+	mycelium_food_icon = 'icons/mob/pathogen/pathogen_weeds_64x64.dmi'
 	weed_food_states = list("Praetorian_1","Praetorian_2","Praetorian_3")
 	weed_food_states_flipped = list("Praetorian_1","Praetorian_2","Praetorian_3")
 
