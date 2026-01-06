@@ -2187,6 +2187,7 @@
 	name = "\improper WY-TM410 pattern smartgunner sidearm rig"
 	desc = "A special pattern of W-Y made combat belt, designed to carry smartgun ammunition and a sidearm."
 	icon_state = "wy_sgbelt"
+	storage_slots = 6
 	flags_atom = NO_NAME_OVERRIDE
 	has_gamemode_skin = FALSE
 	can_hold = list(
@@ -2204,6 +2205,7 @@
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/vp78())
 	new /obj/item/ammo_magazine/pistol/vp78(src)
 	new /obj/item/ammo_magazine/pistol/vp78(src)
+	new /obj/item/ammo_magazine/pistol/vp78(src)
 	new /obj/item/ammo_magazine/smartgun(src)
 	new /obj/item/ammo_magazine/smartgun(src)
 
@@ -2211,6 +2213,7 @@
 	name = "\improper WY-TM410 pattern 'Terminator' smartgunner sidearm rig"
 	desc = "A special pattern of W-Y made combat belt, designed to carry smartgun ammunition and a sidearm."
 	icon_state = "wy_sgbelt"
+	storage_slots = 6
 	flags_atom = NO_NAME_OVERRIDE
 	has_gamemode_skin = FALSE
 	can_hold = list(
@@ -2226,6 +2229,7 @@
 
 /obj/item/storage/belt/gun/smartgunner/commando/full/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/vp78/whiteout())
+	new /obj/item/ammo_magazine/smartgun/dirty(src)
 	new /obj/item/ammo_magazine/smartgun/dirty(src)
 	new /obj/item/ammo_magazine/smartgun/dirty(src)
 	new /obj/item/ammo_magazine/smartgun/dirty(src)

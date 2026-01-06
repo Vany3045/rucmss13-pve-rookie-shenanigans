@@ -983,8 +983,6 @@
 
 /obj/item/clothing/suit/marine/veteran/pmc/light/heavy/Initialize(mapload)
 	. = ..()
-	var/obj/item/clothing/accessory/pmcpads/shoulders = new()
-	src.attach_accessory(null, shoulders, TRUE)
 	var/obj/item/clothing/accessory/pmcpads/greaves/greaves = new()
 	src.attach_accessory(null, greaves, TRUE)
 	var/obj/item/clothing/accessory/pmcpads/neckguard/neckguard = new()
@@ -1039,7 +1037,7 @@
 	desc = "A modification of the standard Armat Systems M3 armor. Designed for high elemental protection, like shock, fire and fragments, lacks in terms of kevlar for bullet protection."
 	icon_state = "pmc_engineer_armor"
 	item_state_slots = list(WEAR_JACKET = "pmc_engineer_armor")
-	armor_bullet = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bullet = CLOTHING_ARMOR_MEDIUM
 	armor_energy = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bomb = CLOTHING_ARMOR_MEDIUM
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUM

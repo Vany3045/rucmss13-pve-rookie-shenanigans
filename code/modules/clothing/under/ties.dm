@@ -2056,65 +2056,68 @@
 /obj/item/clothing/accessory/storage/webbing/m3/uppsmall/pmc
 	name = "\improper 67 Pattern Webbing"
 	icon_state = "wy_webbing_small"
-	desc = "A sturdy mess of synthcotton belts and buckles designed to attach to Weyland Yutani PMC armor. This one is the slimmed down model designed for general purpose storage of small items."
+	desc = "A set of webbing fully outfitted with pouches and pockets to carry a while array of small items, designed to attach to Weyland Yutani PMC armor."
 
-/obj/item/clothing/accessory/storage/webbing/m3/uppmags/pmc
+/obj/item/clothing/accessory/storage/webbing/m3/mag/pmc
 	name = "\improper 82 Pattern Magazine Webbing"
 	desc = "A set of webbing pouches that can carry five magazines. Comes with clips to mount to the standard armor system in use by the Weyland Yutani PMC."
 	icon_state = "wy_webbing_magazine"
+	hold = /obj/item/storage/internal/accessory/webbing/m3mag/pmc
+
+/obj/item/storage/internal/accessory/webbing/m3mag/pmc
+	storage_slots = 4
 
 //Partial Pre-load For Props
 //===
-/obj/item/clothing/accessory/storage/webbing/m3/uppmags/pmc/preset
-	hold = /obj/item/storage/internal/accessory/webbing/m3mag/upp/pmc
+/obj/item/clothing/accessory/storage/webbing/m3/mag/pmc/preset
+	hold = /obj/item/storage/internal/accessory/webbing/m3mag/pmc/one
 
-/obj/item/storage/internal/accessory/webbing/m3mag/upp/pmc/fill_preset_inventory()
-	new /obj/item/ammo_magazine/smg/m39(src)
-	new /obj/item/ammo_magazine/smg/m39(src)
-	new /obj/item/ammo_magazine/smg/m39(src)
-	new /obj/item/ammo_magazine/smg/m39(src)
-	new /obj/item/ammo_magazine/smg/m39(src)
+/obj/item/storage/internal/accessory/webbing/m3mag/pmc/one/fill_preset_inventory()
+	new /obj/item/ammo_magazine/smg/m39/ap(src)
+	new /obj/item/ammo_magazine/smg/m39/ap(src)
+	new /obj/item/ammo_magazine/smg/m39/ap(src)
+	new /obj/item/ammo_magazine/smg/m39/ap(src)
 
-/obj/item/clothing/accessory/storage/webbing/m3/uppmags/pmc/presettwo
-	hold = /obj/item/storage/internal/accessory/webbing/m3mag/upp/pmctwo
+/obj/item/clothing/accessory/storage/webbing/m3/mag/pmc/presettwo
+	hold = /obj/item/storage/internal/accessory/webbing/m3mag/pmc/two
 
-/obj/item/storage/internal/accessory/webbing/m3mag/upp/pmctwo/fill_preset_inventory()
+/obj/item/storage/internal/accessory/webbing/m3mag/pmc/two/fill_preset_inventory()
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 
-/obj/item/clothing/accessory/storage/webbing/m3/uppmags/pmc/presetthree
-	hold = /obj/item/storage/internal/accessory/webbing/m3mag/upp/pmcthree
+/obj/item/clothing/accessory/storage/webbing/m3/mag/pmc/presetthree
+	hold = /obj/item/storage/internal/accessory/webbing/m3mag/pmc/three
 
-/obj/item/storage/internal/accessory/webbing/m3mag/upp/pmcthree/fill_preset_inventory()
+/obj/item/storage/internal/accessory/webbing/m3mag/pmc/three/fill_preset_inventory()
 	new /obj/item/ammo_magazine/sniper/elite/basic(src)
 	new /obj/item/ammo_magazine/sniper/elite/basic(src)
 	new /obj/item/ammo_magazine/sniper/elite/basic(src)
+	new /obj/item/ammo_magazine/sniper/elite/basic(src)
 
-/obj/item/clothing/accessory/storage/webbing/m3/uppmags/pmc/presetfour
-	hold = /obj/item/storage/internal/accessory/webbing/m3mag/upp/pmcfour
+/obj/item/clothing/accessory/storage/webbing/m3/mag/pmc/presetfour
+	hold = /obj/item/storage/internal/accessory/webbing/m3mag/pmc/four
 
-/obj/item/storage/internal/accessory/webbing/m3mag/upp/pmcfour/fill_preset_inventory()
-	new /obj/item/ammo_magazine/rifle/nsg23(src)
+/obj/item/storage/internal/accessory/webbing/m3mag/pmc/four/fill_preset_inventory()
 	new /obj/item/ammo_magazine/rifle/nsg23(src)
 	new /obj/item/ammo_magazine/rifle/nsg23(src)
 	new /obj/item/ammo_magazine/rifle/nsg23(src)
 	new /obj/item/ammo_magazine/rifle/nsg23(src)
 
-/obj/item/clothing/accessory/storage/webbing/m3/shotgun/pmc
+/obj/item/clothing/accessory/storage/webbing/m3/recon/shotgun/pmc
 	name = "\improper 41 Pattern Shell Webbing"
 	desc = "A sturdy mess of synthcotton belts and buckles designed to attach to Weyland Yutani PMC armor. This webbing is fitted for 12 gauge shotgun shells."
 	icon_state = "wy_webbing_shotgun"
 
 /obj/item/clothing/accessory/storage/webbing/m3/pmc
 	name = "\improper 68 Pattern Webbing"
-	desc = "A sturdy mess of synthcotton belts and buckles with 3 large pouches designed to attach to Weyland Yutani PMC armor. This one is designed for general purpose storage of any normal sized item."
+	desc = "A sturdy mess of synthcotton belts and buckles with 2 large pouches designed to attach to Weyland Yutani PMC armor. This one is designed for general purpose storage of any normal sized item."
 	icon_state = "wy_webbing_large"
 	hold = /obj/item/storage/internal/accessory/webbing/m3general/pmc
 
 /obj/item/storage/internal/accessory/webbing/m3general/pmc
-	storage_slots = 3
+	storage_slots = 2
 	max_w_class = SIZE_MEDIUM
 	can_hold = list(
 		/obj/item, // First I wanted to make it an smartgun pouch, but why not just make it general storage for any normal size item then?
@@ -2125,10 +2128,13 @@
 
 /obj/item/storage/internal/accessory/webbing/m3general/pmc/synth_preset/fill_preset_inventory()
 	new /obj/item/weapon/telebaton(src)
-	new /obj/item/tool/crew_monitor/pmc(src)
 	new /obj/item/roller/surgical(src)
 
 /obj/item/clothing/accessory/storage/webbing/m3/m40/pmc
 	name = "\improper 76 Pattern Grenade Webbing"
 	desc = "A sturdy mess of synthcotton belts and buckles designed to attach to Weyland Yutani PMC armor. This webbing is fitted with loops for storing M40-hull grenades."
 	icon_state = "wy_webbing_m40"
+	hold = /obj/item/storage/internal/accessory/black_vest/m3grenade/pmc
+
+/obj/item/storage/internal/accessory/black_vest/m3grenade/pmc
+	storage_slots = 15

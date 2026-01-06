@@ -280,6 +280,11 @@
 /obj/item/storage/pouch/firstaid/ert/wy
 	icon_state = "wy_firstaid"
 
+/obj/item/storage/pouch/firstaid/wy_pve
+	desc = "A first aid pouch capable of storing a variety of basic medical supplies. It can hold ointments, bandages, injectors, splints and pill packets. This one has some extra stuff."
+	icon_state = "wy_firstaid"
+	storage_slots = 6
+
 ///Pistol pouch.
 /obj/item/storage/pouch/pistol
 	name = "sidearm pouch"
@@ -592,7 +597,7 @@
 	name = "smartgun drum pouch"
 	desc = "A heavy pouch designed for carrying a surplus of smargun drums."
 	icon_state = "wy_sgdrums_ammo"
-	storage_slots = 3
+	storage_slots = 2
 	can_hold = list(
 		/obj/item/ammo_magazine/smartgun,
 	)

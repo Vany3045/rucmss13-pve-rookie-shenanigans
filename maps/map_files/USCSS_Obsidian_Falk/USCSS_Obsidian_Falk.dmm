@@ -8783,7 +8783,8 @@
 /obj/item/ammo_magazine/smartgun,
 /obj/item/ammo_magazine/smartgun,
 /obj/item/ammo_magazine/smartgun,
-/obj/item/storage/belt/marine/smartgunner,
+/obj/item/storage/belt/gun/smartgunner/pmc,
+/obj/item/storage/pouch/magazine/large/pmc_sg,
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 8;
 	light_power = 0.7
@@ -9114,7 +9115,8 @@
 /obj/item/ammo_magazine/smartgun,
 /obj/item/ammo_magazine/smartgun,
 /obj/item/ammo_magazine/smartgun,
-/obj/item/storage/belt/marine/smartgunner,
+/obj/item/storage/belt/gun/smartgunner/pmc,
+/obj/item/storage/pouch/magazine/large/pmc_sg,
 /obj/item/smartgun_battery,
 /turf/open/floor/corsat/cargo,
 /area/firefly/squad_omega)

@@ -1082,7 +1082,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 
 /obj/item/clothing/head/helmet/marine/veteran/pmc/gunner
 	name = "\improper Mk16 tactical helmet"
-	desc = "Standard issue high molecular density polymer enclosed combat helmet of the RMC, though this one has been painted white for service with Weyland Yutani's elite tactical teams.. Resistant to glancing hits from small arms and shrapnel, incorporates tactical camera, IFF signal transponder, and heads up display lens. Also features white/black hot IR viewing modes from the camera system."
+	desc = "Standard issue high molecular density polymer enclosed combat helmet of the RMC, though this one has been painted white for service with Weyland Yutani's elite tactical teams. Resistant to glancing hits from small arms and shrapnel, incorporates tactical camera, IFF signal transponder, and heads up display lens. Also features white/black hot IR viewing modes from the camera system."
 	icon_state = "pmc_helmet_enclosed"
 	flags_armor_protection = BODY_FLAG_HEAD|BODY_FLAG_FACE|BODY_FLAG_EYES
 	flags_inventory = COVEREYES|COVERMOUTH|BLOCKSHARPOBJ|ALLOWINTERNALS|BLOCKGASEFFECT|ALLOWREBREATH|ALLOWCPR
@@ -1103,7 +1103,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	flags_marine_helmet = ARMOR_LAMP_OVERLAY
 	light_color = LIGHT_COLOR_FLARE
 	light_power = 3
-	light_range = 4
+	light_range = 6
 	light_system = MOVABLE_LIGHT
 	actions_types = list(/datum/action/item_action/toggle_helmet_light)
 	var/atom/movable/marine_light/light_holder
@@ -1195,6 +1195,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	name = "\improper PMC Mk16 engineer helmet"
 	desc = "An advanced technician helmet with a black finish, including advanced welding protection and resistance to industrial hazards, though it offers less kevlar against potential firefights."
 	icon_state = "pmc_engineer_helmet"
+	armor_bullet = CLOTHING_ARMOR_HIGH
 	armor_energy = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bullet = CLOTHING_ARMOR_MEDIUMLOW
 	armor_bomb = CLOTHING_ARMOR_MEDIUM

@@ -9031,7 +9031,8 @@
 /obj/item/ammo_magazine/smartgun,
 /obj/item/ammo_magazine/smartgun,
 /obj/item/ammo_magazine/smartgun,
-/obj/item/storage/belt/marine/smartgunner,
+/obj/item/storage/belt/gun/smartgunner/pmc,
+/obj/item/storage/pouch/magazine/large/pmc_sg,
 /obj/item/smartgun_battery,
 /turf/open/floor/corsat/cargo,
 /area/firefly/squad_omega)
