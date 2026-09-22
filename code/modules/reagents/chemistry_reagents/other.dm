@@ -721,6 +721,7 @@
 	chemfiresupp = TRUE
 	burncolor = "#D05006"
 	burn_sprite = "red"
+	flame_particle_icon = "flamer_orange"
 	properties = list(PROPERTY_OXIDIZING = 6, PROPERTY_FUELING = 7, PROPERTY_FLOWING = 1)
 
 /datum/reagent/napalm/sticky
@@ -731,6 +732,7 @@
 	color = "#f8e3b2"
 	burncolor = "#f8e3b2"
 	burn_sprite = "dynamic"
+	flame_particle_icon = "flamer"
 	intensitymod = -1.5
 	durationmod = -5
 	radiusmod = -0.5
@@ -748,6 +750,7 @@
 	color = "#c51c1c"
 	burncolor = "#c51c1c"
 	burn_sprite = "dynamic"
+	flame_particle_icon = "flamer_red"
 	intensitymod = -4.5
 	durationmod = -1
 	radiusmod = -0.5
@@ -764,6 +767,7 @@
 	description = "An impure napalm mix, causing it to burn at lower temperatures, typically used with flamethrowers."
 	burncolor = "#e49320"
 	burn_sprite = "dynamic"
+	flame_particle_icon = "flamer_orange"
 	properties = list(
 		PROPERTY_INTENSITY = BURN_LEVEL_TIER_3,
 		PROPERTY_DURATION = BURN_TIME_TIER_2,
@@ -776,6 +780,7 @@
 	id = "utnapthal"
 	description = "Known as Ultra Thick Napthal Fuel, a sticky combustible liquid chemical, typically used with flamethrowers."
 	burncolor = "#EE6515"
+	flame_particle_icon = "flamer_orange"
 	properties = list(
 		PROPERTY_INTENSITY = BURN_LEVEL_TIER_7,
 		PROPERTY_DURATION = BURN_TIME_TIER_2,
@@ -791,6 +796,7 @@
 	color = COLOR_GREEN
 	burncolor = COLOR_GREEN
 	burn_sprite = "green"
+	flame_particle_icon = "flamer_green"
 	properties = list(
 		PROPERTY_INTENSITY = BURN_LEVEL_TIER_4,
 		PROPERTY_DURATION = BURN_TIME_TIER_5,
@@ -806,6 +812,7 @@
 	color = "#00b8ff"
 	burncolor = "#00b8ff"
 	burn_sprite = "blue"
+	flame_particle_icon = "flamer_blue"
 	properties = list(
 		PROPERTY_INTENSITY = BURN_LEVEL_TIER_9,
 		PROPERTY_DURATION = BURN_TIME_TIER_4,
@@ -821,6 +828,7 @@
 	color = COLOR_GREEN
 	burncolor = COLOR_GREEN
 	burn_sprite = "green"
+	flame_particle_icon = "flamer_green"
 	properties = list(
 		PROPERTY_INTENSITY = BURN_LEVEL_TIER_4,
 		PROPERTY_DURATION = BURN_TIME_TIER_5,
@@ -835,6 +843,7 @@
 	color = COLOR_PURPLE
 	burncolor = COLOR_PURPLE
 	burn_sprite = "dynamic"
+	flame_particle_icon = "flamer_purple"
 	properties = list(
 		PROPERTY_INTENSITY = BURN_LEVEL_TIER_2,
 		PROPERTY_DURATION = BURN_TIME_TIER_5,
@@ -849,6 +858,7 @@
 	color = "#641dd6"
 	burncolor = "#641dd6"
 	burn_sprite = "dynamic"
+	flame_particle_icon = "flamer_purple"
 	properties = list(
 		PROPERTY_INTENSITY 			= BURN_LEVEL_TIER_9,
 		PROPERTY_DURATION 			= BURN_TIME_TIER_4,
@@ -863,6 +873,7 @@
 	color = "#ffe49c"
 	burncolor = "#ffe49c"
 	burn_sprite = "dynamic"
+	flame_particle_icon = "flamer"
 	properties = list(
 		PROPERTY_INTENSITY = BURN_LEVEL_TIER_9,
 		PROPERTY_DURATION = BURN_TIME_TIER_3,

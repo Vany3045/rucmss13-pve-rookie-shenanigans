@@ -310,7 +310,7 @@
 		else
 			//Not stellar, but if we can't find a direction, fall back to HIDP behaviour.
 			INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(flame_radius), cause_data, radius, get_turf(src), flame_level, burn_level, flameshape, target)
-		playsound(src, 'sound/weapons/gun_flamethrower2.ogg', 35, 1, 4)
+		playsound(src, 'sound/weapons/flame_explode.ogg', 35, 1, 4)
 		qdel(src)
 
 /obj/item/explosive/grenade/high_explosive/impact //omega hell killer grenade of doom from hell
@@ -416,7 +416,7 @@
 			//Not stellar, but if we can't find a direction, fall back to HIDP behaviour.
 			INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(flame_radius), cause_data, radius, get_turf(src), flame_level, burn_level, flameshape, target)
 			cell_explosion(get_turf(hit_atom), 80, 40, EXPLOSION_FALLOFF_SHAPE_LINEAR, cause_data)
-		playsound(src, 'sound/weapons/gun_flamethrower2.ogg', 35, 1, 4)
+		playsound(src.loc, 'sound/weapons/flame_explode.ogg', 35, 1, 4)
 		qdel(src)
 
 
@@ -546,7 +546,7 @@
 		to_chat(user, SPAN_WARNING("This grenade is set for impact-fusing!"))
 		return
 	INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(flame_radius), cause_data, radius, get_turf(src), flame_level, burn_level, flameshape, null, fire_type)
-	playsound(src.loc, 'sound/weapons/gun_flamethrower2.ogg', 35, 1, 4)
+	playsound(src.loc, 'sound/weapons/flame_explode.ogg', 35, 1, 4)
 	qdel(src)
 
 /obj/item/explosive/grenade/incendiary/launch_impact(atom/hit_atom)
@@ -559,7 +559,7 @@
 		detonate = FALSE
 	if(active && detonate) // Active, and we reached our destination.
 		INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(flame_radius), cause_data, radius, get_turf(src), flame_level, burn_level, flameshape, null, fire_type)
-		playsound(src.loc, 'sound/weapons/gun_flamethrower2.ogg', 35, 1, 4)
+		playsound(src.loc, 'sound/weapons/flame_explode.ogg', 35, 1, 4)
 		qdel(src)
 
 /proc/flame_radius(datum/cause_data/cause_data, radius = 1, turf/T, flame_level = 20, burn_level = 30, flameshape = FLAMESHAPE_DEFAULT, target, fire_type = FIRE_VARIANT_DEFAULT)
@@ -643,7 +643,7 @@
 		else
 			//Not stellar, but if we can't find a direction, fall back to HIDP behaviour.
 			INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(flame_radius), cause_data, radius, get_turf(src), flame_level, burn_level, FLAMESHAPE_DEFAULT, target)
-		playsound(src.loc, 'sound/weapons/gun_flamethrower2.ogg', 35, 1, 4)
+		playsound(src.loc, 'sound/weapons/flame_explode.ogg', 35, 1, 4)
 		qdel(src)
 
 /*
